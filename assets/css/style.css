@@ -49,21 +49,18 @@ p {
 .content {
   width: 75%;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
+
 .cta {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3em;
+  padding: 2em;
 }
 .perfil-contacto {
   display: flex;
-}
-.perfil-img {
-  width: 25%;
+  justify-content: space-evenly;
+  border-top: 0.1em solid #828485;
+  padding: 1em 0;
 }
 .perfil-img img {
   border-radius: 100px;
@@ -71,7 +68,6 @@ p {
   width: 100%;
 }
 .perfil-info {
-  width: 75%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -79,16 +75,20 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .perfil-contacto-sm {
   display: flex;
-  width: 75%;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1em solid #828485;
+  padding: 1em;
 }
 .nav-icons {
-  width: 25%;
-}
-.perfil-img-sm {
-  width: 15%;
+  display: flex;
+  gap: 1em;
 }
 .perfil-img-sm img {
   border-radius: 100px;
