@@ -47,10 +47,10 @@ p {
   display: flex;
 }
 .sidebar {
-  width: 25%;
+  width: 20%;
 }
 .content {
-  width: 75%;
+  width: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -58,17 +58,16 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f8f8f8;
+  min-height: 100vh;
+  padding: 2em;
 }
 .container img {
-  width: 25%;
+  width: 45%;
   border-radius: 1em;
 }
-
 .container p {
-  width: 75%;
   font-size: 1em;
 }
-
 .container {
   display: flex;
   align-items: center;
@@ -77,6 +76,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  width: 50%;
 }
 .cta {
   display: flex;
@@ -90,6 +90,9 @@ p {
   border-top: 0.1em solid #eeeeee;
   padding: 1em 1.5em;
   gap: 0.8em;
+}
+.perfil-contacto:hover {
+  background-color: #f8f8f8;
 }
 .perfil-img img {
   border-radius: 100px;
@@ -119,7 +122,12 @@ p {
 .nav-icons {
   display: flex;
   gap: 0.7em;
+}
+.svg-icons {
   color: #a491d2;
+}
+.svg-icons:hover {
+  color: #cdc3e6;
 }
 .perfil-img-sm img {
   border-radius: 100px;
