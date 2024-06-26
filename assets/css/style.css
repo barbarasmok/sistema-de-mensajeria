@@ -21,18 +21,21 @@ h6 {
 }
 h3 {
   margin-top: 0 !important;
-  font-size: 1.1em;
+  margin-bottom: 0 !important;
+  font-size: 1em;
 }
 p {
-  font-size: 0.8em;
-  line-height: 1.3;
+  font-size: 0.7em;
+  line-height: 1.4;
   margin-bottom: 0;
 }
 .btn-primary {
   background-color: #a491d2;
   color: white;
   border: none;
-  border-radius: 0;
+  border-radius: 0.2em;
+  font-size: 0.8em;
+  padding: 1em 2.5em;
 }
 .btn-primary:hover {
   background-color: #cdc3e6;
@@ -48,52 +51,80 @@ p {
 }
 .content {
   width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.container img {
+  width: 25%;
+  border-radius: 1em;
 }
 
+.container p {
+  width: 75%;
+  font-size: 1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 .cta {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1.5em;
 }
 .perfil-contacto {
   display: flex;
   justify-content: space-evenly;
-  border-top: 0.1em solid #828485;
-  padding: 1em 0;
+  border-top: 0.1em solid #eeeeee;
+  padding: 1em 1.5em;
+  gap: 0.8em;
 }
 .perfil-img img {
   border-radius: 100px;
-  height: 75px;
-  width: 100%;
+  height: 50px;
+  width: 50px;
 }
 .perfil-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
 }
 .perfil-contacto-sm {
   display: flex;
   justify-content: space-evenly;
+  gap: 0.8em;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.1em solid #828485;
-  padding: 1em;
+  border-bottom: 0.1em solid #eeeeee;
+  padding: 1em 0.8em;
 }
 .nav-icons {
   display: flex;
-  gap: 1em;
+  gap: 0.7em;
+  color: #a491d2;
 }
 .perfil-img-sm img {
   border-radius: 100px;
   height: 35px;
-  width: 100%;
+  width: 35px;
 }
 .perfil-info-sm {
   width: 75%;
@@ -101,6 +132,15 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+}
+
+.perfil-info-sm h3 {
+  font-size: 0.8em;
+  margin-bottom: 0.2em !important;
+}
+.perfil-info-sm p {
+  font-size: 0.6em;
+  margin-bottom: 0 !important;
 }
